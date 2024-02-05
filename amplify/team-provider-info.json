@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sportmex-dev-113554-authRole",
+      "UnauthRoleArn": "arn:aws:iam::675418481961:role/amplify-sportmex-dev-113554-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::675418481961:role/amplify-sportmex-dev-113554-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-sportmex-dev-113554-deployment",
+      "UnauthRoleName": "amplify-sportmex-dev-113554-unauthRole",
+      "StackName": "amplify-sportmex-dev-113554",
+      "StackId": "arn:aws:cloudformation:eu-north-1:675418481961:stack/amplify-sportmex-dev-113554/a43386f0-ba7e-11ee-a6c4-0a03b69cf8f6",
+      "AmplifyAppId": "d15604qac5q0qy"
+    },
+    "categories": {
+      "auth": {
+        "sportmex2fd8bdcc": {}
+      }
+    }
+  }
+}

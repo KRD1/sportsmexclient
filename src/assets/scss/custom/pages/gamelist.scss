@@ -1,0 +1,30 @@
+.game-calender{
+    justify-content: space-between;
+    margin: 12px 0px;
+    display: flex;
+}
+
+.game-header{
+    display: flex;
+}
+.min-content{
+    width: fit-content;
+}
+
+.game-teams{
+    .score{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .live{
+    }
+}
+
+hr{
+    border: 0.01rem solid lightgray;
+}
+.win-probality{
+    display: flex;
+    font-size:large ;
+    font-weight: bold;
+}

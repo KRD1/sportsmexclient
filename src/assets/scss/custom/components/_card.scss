@@ -1,0 +1,65 @@
+// 
+// _card.scss
+// 
+
+.card {
+  margin-bottom: 8px;
+  box-shadow: $box-shadow;
+  border-radius: 16px;
+}
+.card-body{
+  padding: 0px;
+}
+.red-dot {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px; /* Adjust as needed */
+}
+
+
+.card-drop {
+  color: $body-color;
+}
+.card-row{
+  display: grid;
+  justify-content: space-between;
+  div{
+    font-size: large;
+    font-weight: bold;
+  }
+}
+.card-win{
+  align-self: center;
+  div{
+    font-size: x-large;
+    font-weight: bold;
+    // display: inline-block;
+    // -webkit-transform: scale(1, 3);
+    // -moz-transform: scale(1, 3);
+    // -o-transform: scale(1, 3);
+    // transform: scaleY(1,3);
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  }
+  .green-text{
+    color:#4B8B2E
+  }
+  .red-text{
+    color:#ED174C
+  }
+}
+
+.card-title {
+  font-size: 15px;
+  margin: 0 0 7px 0;
+  font-weight: $font-weight-semibold;
+}
+
+.card-title-desc {
+  color: $card-title-desc;
+  margin-bottom: 24px;  
+}
